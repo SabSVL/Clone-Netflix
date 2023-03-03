@@ -1,0 +1,60 @@
+@media screen and (max-width: 835px){
+    footer ul{
+        columns: 3;
+    }
+}
+
+@media screen and (max-width:600px)
+{
+    nav img{
+    padding-left: 20px;
+    width: 120px;
+    }
+    nav select, nav a{
+    padding: 5px 10px;
+    font-size: 15px;
+    }
+    nav select{
+        padding: 5px 3px;
+        font-size: 13px;
+    }
+    .titulo h1{
+        font-size: 2.2em;
+    }
+    
+    .titulo p{font-size: 1.1em;}
+
+    footer{
+        margin-left: 10px;
+    }
+
+    .container h2, .perguntas-frequentes h2{
+        font-size: 35px ;
+        text-align: center;
+    }
+    .img-container, #img4-container, .container img{
+        width: 100%;
+    }
+    .container p{
+        font-size: 17px;
+        text-align: center;
+    }
+    .pergunta,.resposta{
+        max-width: 100%;
+    }
+    .pergunta h3, .resposta p{
+    font-size: 1.3rem;
+    }
+    .criar-conta p{
+        width: 80%;
+    }
+    .email input, .criar-conta input{
+        padding: 25px;
+        width: 80%;
+    }
+    .email button, .criar-conta button{
+    width: 150px;
+    font-size: 17px;
+    }
+
+}
