@@ -1,0 +1,36 @@
+@font-face {
+    font-family:'Netflix' ;
+    src: url('../fontes/NetflixSans-Light.otf') format('opentype');
+}
+body{
+    font-family: 'Netflix',Arial, Helvetica, sans-serif;
+}
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background-color: blue;
+    padding: 20px;
+}
+
+header img{
+    width: 150px;
+}
+nav,nav ul {
+    background-color: brown;
+    width: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+nav li{
+    list-style: none;
+    margin-right: 20px;
+}

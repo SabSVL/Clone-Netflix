@@ -90,9 +90,12 @@ main{
   figure{
     width: 15%;
   }
+  button{
+    display: none;
+  }
   
-  figcaption, button{
-    font-size: 15px;
+  figcaption{
+    font-size: 2vw;
   }
 
 }
