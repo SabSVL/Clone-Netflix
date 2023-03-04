@@ -1,0 +1,49 @@
+@media screen and (max-width:650px){
+    body{
+        background-image: none;
+        background-color: black;
+    }
+    section{
+        width: 100%;  
+        padding-left: 5%;
+        height: 550px;
+    }
+    section h1{
+        margin-bottom: 25px;
+        }
+    
+section input[type="text"], section input[type="password"], section button, section  p{
+    width: 95%;    
+    padding: 13px 10px 13px 20px;
+}
+
+section input::placeholder{
+    font-size: 14px;
+}
+section p{
+    margin-top: 0px;
+}
+
+section a:nth-child(7){
+    float: right;    
+    margin-top: 20px;
+    margin-right: 25px;
+}
+
+section p:nth-child(8){
+    font-size: 15px;
+}
+hr{
+    display: block;
+}
+footer{
+    margin-top: 20px;
+}
+footer ul{
+    column-count: 3;
+}
+
+footer ul li:nth-child(5){
+    margin-bottom: 15px;
+}
+}
