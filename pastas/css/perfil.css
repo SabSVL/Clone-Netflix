@@ -88,14 +88,14 @@ main{
   }
   
   figure{
-    width: 20%;
+    width: 22%;
   }
   button{
     display: none;
   }
   
   figcaption{
-    font-size: 3vw;
+    font-size: 3.3vw;
   }
 
 }
