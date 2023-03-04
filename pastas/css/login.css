@@ -56,6 +56,9 @@ section input[type="text"], section input[type="password"]{
     border: none;
     color: white;
 }
+section a{
+    text-decoration: none;
+}
 section input::placeholder{
     font-size: 16px;
 }
