@@ -9,7 +9,10 @@ body{
 *{
     padding: 0px;
     margin: 0px;
+    box-sizing: border-box;
 }
+
+
 
 header{
     display: flex;
@@ -22,15 +25,49 @@ header{
 
 header img{
     width: 150px;
+    margin-right: 20px;
 }
 nav,nav ul {
-    background-color: brown;
     width: auto;
     display: flex;
     flex-direction: row;
     align-items: center;
 }
 nav li{
+    cursor: pointer;
     list-style: none;
+    color: rgb(145, 137, 137);
     margin-right: 20px;
+    font-size: 14px;
+}
+header div{
+    background-color: brown;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+}
+div i {
+    color: white;
+}
+header div input{
+    border: 1px solid white;
+    width: 250px;
+    padding: 10px;
+    color: white;
+    margin-right: 10px;
+    background-color: rgba(0, 0, 0, 0.61);
+}
+
+.icon{
+    position: absolute;
+    right: 35%;
+    
+
+}
+#perfil img{
+    width: 60px;
+    margin-left: 10px;
+    border-radius: 5px;
 }
